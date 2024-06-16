@@ -1,0 +1,130 @@
+.bg-custom {
+  background-color: #ffe3ab;
+}
+
+.img {
+  justify-content: start;
+}
+
+.image-section1 {
+  background-image: url("./asset/bg-image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vb;
+}
+
+.hero-container {
+  height: 100vh; /* Menggunakan 100% tinggi viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linear-gradient {
+  background: linear-gradient(to right, #af8260, #c9a37f);
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.linear-gradient .background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%; /* Sesuaikan dengan kebutuhan Anda */
+  background-image: url("../asset/image3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-color {
+  background-color: #af8260;
+}
+
+.bg-image {
+  background-image: url("./seniman/bg-seniman.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vb;
+}
+
+.bg-image1 {
+  background-image: url("./seniman/iwan-image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vb;
+
+  .color-font {
+    color: #fff500;
+  }
+}
+
+.bg-deskripsi {
+  background-color: #e4c59e;
+}
+
+.hr-custom {
+  border: 3px solid #d38526; /* Ketebalan 2px dan warna biru */
+}
+
+.hr-custom2 {
+  border: 1px solid;
+}
+
+.gallery-card-img {
+  width: 100%;
+  height: auto; /* Sesuaikan tinggi otomatis berdasarkan lebar */
+  object-fit: cover; /* Memastikan gambar menutupi seluruh area kartu */
+}
+.navbar {
+  animation: fadeInDown;
+  animation-duration: 1s;
+}
+/* styles.css */
+.nav-link {
+  transition: transform 0.3s ease; /* Menambahkan transisi pada transformasi */
+}
+
+.nav-link:hover {
+  transform: scale(1.2); /* Mengubah skala teks saat disorot */
+}
+
+/* Beranda.css */
+.zoom-in-image {
+  transition: transform 0.3s ease;
+}
+
+.zoom-in-image:hover {
+  transform: scale(1.05);
+}
+
+/* ProfileComponent.css */
+.custom-tabs .nav-link {
+  color: black;
+  background-color: white;
+  border-color: #dee2e6;
+}
+
+.custom-tabs .nav-link.active {
+  color: white;
+  background-color: black;
+  border-color: #dee2e6;
+}
+
+.custom-tabs .nav-link:hover {
+  color: black;
+}
+
+.separator {
+  border-right: 2px solid #ccc;
+  margin: 0 15px;
+}
+
+/* styles.css */
+.text-karya {
+  margin-top: 5px; /* Atur jarak vertikal jika diperlukan */
+  font-style: italic; /* Atur gaya font jika diinginkan */
+}
